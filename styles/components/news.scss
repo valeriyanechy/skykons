@@ -98,3 +98,15 @@
         }
     }
 }
+
+@media(max-width: 1024px) {
+    .news {
+        padding: 30px 25px 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .news__title::after {
+        left: 40%;
+    }
+}

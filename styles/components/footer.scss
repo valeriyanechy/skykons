@@ -84,3 +84,13 @@
         }
     }
 }
+
+@media(max-width: 768px) {
+    .footer__wrap {
+        max-width: 760px;
+    }
+
+    .footer__info li {
+        padding: 0 25px;
+    }
+}

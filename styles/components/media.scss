@@ -74,3 +74,17 @@
         }
     }
 }
+
+@media(max-width: 1024px) {
+    .media__wrap {
+        min-height: 400px;
+
+        img {
+            height: 400px !important;
+        }
+    }
+
+    .media__info {
+        top: 240%;
+    }
+}

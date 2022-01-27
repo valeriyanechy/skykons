@@ -139,7 +139,7 @@
     }
 
     100% {
-        left: 190px;
+        left: 180px;
         top: 0;
         opacity: 1;
     }
@@ -156,5 +156,11 @@
 
     100% {
         opacity: 1;
+    }
+}
+
+@media(max-width: 768px) {
+    .hero__info {
+        max-width: 500px;
     }
 }
